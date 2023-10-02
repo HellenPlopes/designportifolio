@@ -1,0 +1,995 @@
+@import url('https://fonts.googleapis.com/css2?família=Fraunces:opsz,wght@9.. 144.300&family=Jacques+Francois&family=Julius+Sans+One&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Quicksand&family=Raleway:ital,wght@0.100; 0,300; 1.200&display=swap');
+
+body{
+    background-color: #191920;
+}
+
+
+
+.header-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .logo {
+    width: 170px;
+  }
+  
+  .social-icons {
+    display: flex; 
+    list-style: none; 
+    padding: 5px; 
+    cursor: pointer;
+
+  }
+  
+  .social-icons li {
+    margin: 0 20px; 
+  }
+
+  i{
+    transform: scale(1.3);
+  }
+
+
+  .container_primario{
+    columns: 2;
+    margin-top: 20px;
+  }
+
+  .imagem_artista{
+    width: 230px;
+  }
+
+  .titulo_sobre{
+    font-size: 23px;    
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    width: 10px;
+    
+  }
+
+  .segundario{
+      width: 200px;
+      margin-left: 60px; 
+    }
+
+ 
+
+  .assunto{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #fad8d8;
+    font-size: 18px;
+   
+  }
+
+
+
+  .informativo{
+    font-size: 23px;    
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 50px 40px 45px;
+  }
+
+  .image{
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+    cursor: pointer;
+    transition: 0.3s
+  }
+
+
+  .terceiro_conteudo{
+    flex-direction: column;
+    margin: 100px 50px 40px 45px;
+  }
+
+
+  .informativo_2{
+    font-size: 21px;    
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+  }
+
+
+  .valory1{
+    display: flex;
+    padding: 20px;
+  }
+  
+  .image_reference{
+    width: 170px;
+    border-radius: 10px;
+  }
+
+  .text{
+    margin-left: 10px;
+  }
+
+  .titulo{
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+  }
+
+  .money{
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+  }
+
+  .informativo_sobre{
+    color: #fad8d8;
+    font-family: Júlio Sans Um;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none;
+    font-size: 16px;
+  }
+
+  .valory2{
+    display: flex;
+    padding: 20px;
+  }
+
+  .valory3{
+    display: flex;
+    padding: 20px;
+  }
+
+  .social-icons-finale{
+    display: flex; 
+    list-style: none; 
+    padding: 5px; 
+    cursor: pointer;
+    margin: 100px 50px 40px 45px;
+  }
+  
+  .social-icons-finale li {
+    margin: 0 20px; 
+  }
+  
+
+  /*Parte de 460*/
+
+  @media screen and (min-width: 460px){
+
+    i{
+      transform: scale(1.5);
+    }
+  
+  
+    .container_primario{
+      margin-top: 40px;
+    }
+  
+    .imagem_artista{
+      width: 250px;
+    }
+  
+    .titulo_sobre{
+      font-size: 34px;    
+    }
+    
+    .segundario{
+      width: 400px;
+      margin-left: 10px; 
+    }
+
+ 
+
+  .assunto{
+    font-size: 23px;
+   
+  }
+
+
+
+  .informativo{
+    font-size: 25px;    
+  }
+
+  .image{
+    width: 300px;
+  }
+
+
+  .terceiro_conteudo{
+    margin: 100px 50px 40px 45px;
+  }
+
+
+  .informativo_2{
+    font-size: 23px;    
+  }
+
+  
+  .image_reference{
+    width: 180px;
+  }
+
+  .text{
+    margin-left: 10px;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+
+  .money{
+    font-size: 20px;
+  }
+
+  .informativo_sobre{
+    font-size: 18px;
+  }
+
+  
+
+  .social-icons-finale{
+    margin: 100px 30px 40px 80px;
+  }
+  
+  .social-icons-finale li {
+    margin: 0 20px; 
+  }
+  }
+
+  @media screen and (min-width: 780px){
+
+    i{
+      transform: scale(1.8);
+    }
+  
+  
+    .container_primario{
+      margin-top: 40px;
+      columns: 1;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 170px;
+    }
+  
+    .titulo_sobre{
+      display: none;
+    }
+    
+    .segundario{
+      width: 600px;
+      margin-left: 70px; 
+    }
+
+ 
+
+  .assunto{
+    font-size: 23px;
+    color: #d7655c;
+  }
+
+
+
+  .informativo{
+    font-size: 28px;    
+  }
+
+  .image{
+    width: 300px;
+    margin-left: 30px;
+  }
+
+
+  .terceiro_conteudo{
+    margin: 100px 50px 40px 45px;
+  }
+
+
+  .informativo_2{
+    font-size: 28px;    
+  }
+
+
+  .valory1{
+    display: flex;
+    padding: 20px;/*apagar*/
+  }
+  
+  .image_reference{
+    width: 350px;
+  }
+
+  .text{
+    margin-left: 10px;
+  }
+
+  .titulo{
+    font-size: 23px;
+  }
+
+  .money{
+    font-size: 23px;
+  }
+
+  .informativo_sobre{
+    font-size: 30px;
+  }
+
+  
+
+  .social-icons-finale{
+    margin: 100px 30px 40px 250px;
+  }
+  
+  .social-icons-finale li {
+    margin: 0 20px; 
+  }
+  }
+
+
+  @media screen and (min-width: 1142px) {
+    .header-container {
+      display: flex;
+      flex-direction: columnr; 
+      align-items: center; 
+      text-align: center; 
+    }
+    
+    .logo {
+      width: 250px;
+    }
+    
+    .social-icons {
+      display: flex; 
+      list-style: none; 
+      padding: 10px; 
+      cursor: pointer;
+  
+    }
+    
+    .social-icons li {
+      margin: 0 20px; 
+    }
+  
+    i{
+      transform: scale(1.9);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 500px;
+      position: relative;
+      right: 70px;
+    }
+  
+    .titulo_sobre{
+      font-size: 43px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 60px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+
+    .segundario{
+        width: 500px;
+        bottom:300px;
+        position: relative;
+        left: 500px;
+      }
+  
+   
+  
+    .assunto{
+      text-align: center;
+      align-items: center;
+      display: flex;
+      color: #fad8d8;
+      font-size: 27px;
+     
+    }
+  
+  
+  
+    .informativo{
+      font-size: 27px;    
+      position: relative;
+      bottom: 200px;
+    }
+  
+    .image{
+      width: 250px;
+      margin-left: 75px;
+      bottom: 190px;
+      position: relative;
+    }
+  
+  
+  
+    .informativo_2{
+      font-size: 27px;    
+      position: relative;
+      bottom: 120px;
+    }
+  
+  
+    .valory1{
+      display: flex;
+      padding: 20px;
+    }
+    
+    .image_reference{
+      width: 400px;
+      border-radius: 10px;
+    }
+  
+    .text{
+      margin-left: 100px;
+    }
+  
+    .titulo{
+      font-size: 40px;
+      position: relative;
+    }
+
+    .titulo::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 160px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+  
+    .money{
+      font-size: 30px;
+    }
+  
+    .informativo_sobre{
+      font-size:25px;
+    }
+  
+    .valory2{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .valory3{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .social-icons-finale{
+      display: flex; 
+      list-style: none; 
+      padding: 5px; 
+      cursor: pointer;
+      margin: 300px 50px 40px 450px;
+    }
+    
+    .social-icons-finale li {
+      margin: 0 20px; 
+    }
+    
+  }
+
+  @media screen and (min-width: 1298px) {
+    .header-container {
+      display: flex;
+      flex-direction: columnr; 
+      align-items: center; 
+      text-align: center; 
+    }
+    
+    .logo {
+      width: 250px;
+    }
+    
+    .social-icons {
+      display: flex; 
+      list-style: none; 
+      padding: 10px; 
+      cursor: pointer;
+  
+    }
+    
+    .social-icons li {
+      margin: 0 20px; 
+    }
+  
+    i{
+      transform: scale(1.9);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 500px;
+      position: relative;
+      right: 70px;
+    }
+  
+    .titulo_sobre{
+      font-size: 43px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 60px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+
+    .segundario{
+        width: 500px;
+        bottom:300px;
+        position: relative;
+        left: 500px;
+      }
+  
+   
+  
+    .assunto{
+      text-align: center;
+      align-items: center;
+      display: flex;
+      color: #fad8d8;
+      font-size: 27px;
+     
+    }
+  
+  
+  
+    .informativo{
+      font-size: 27px;    
+      position: relative;
+      bottom: 200px;
+    }
+  
+    .image{
+      width: 300px;
+      margin-left: 80px;
+      bottom: 190px;
+      position: relative;
+    }
+  
+  
+  
+    .informativo_2{
+      font-size: 27px;    
+      position: relative;
+      bottom: 120px;
+    }
+  
+  
+    .valory1{
+      display: flex;
+      padding: 20px;
+    }
+    
+    .image_reference{
+      width: 400px;
+      border-radius: 10px;
+    }
+  
+    .text{
+      margin-left: 100px;
+    }
+  
+    .titulo{
+      font-size: 40px;
+      position: relative;
+    }
+
+    .titulo::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 160px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+  
+    .money{
+      font-size: 30px;
+    }
+  
+    .informativo_sobre{
+      font-size:25px;
+    }
+  
+    .valory2{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .valory3{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .social-icons-finale{
+      display: flex; 
+      list-style: none; 
+      padding: 5px; 
+      cursor: pointer;
+      margin: 300px 50px 40px 540px;
+    }
+    
+    .social-icons-finale li {
+      margin: 0 20px; 
+    }
+    
+  }
+
+  @media screen and (min-width: 1382px) {
+    .header-container {
+      display: flex;
+      flex-direction: columnr; 
+      align-items: center; 
+      text-align: center; 
+    }
+    
+    .logo {
+      width: 250px;
+    }
+    
+    .social-icons {
+      display: flex; 
+      list-style: none; 
+      padding: 10px; 
+      cursor: pointer;
+  
+    }
+    
+    .social-icons li {
+      margin: 0 20px; 
+    }
+  
+    i{
+      transform: scale(1.9);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 500px;
+    }
+  
+    .titulo_sobre{
+      font-size: 43px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+
+    .segundario{
+        width: 500px;
+        bottom:300px;
+        position: relative;
+        left: 550px;
+      }
+  
+   
+  
+    .assunto{
+      text-align: center;
+      align-items: center;
+      display: flex;
+      color: #fad8d8;
+      font-size: 27px;
+     
+    }
+  
+  
+  
+    .informativo{
+      font-size: 27px;    
+      position: relative;
+      bottom: 200px;
+    }
+  
+    .image{
+      width: 350px;
+      margin-left: 65px;
+      bottom: 190px;
+      position: relative;
+    }
+  
+  
+  
+    .informativo_2{
+      font-size: 27px;    
+      position: relative;
+      bottom: 120px;
+    }
+  
+  
+    .valory1{
+      display: flex;
+      padding: 20px;
+    }
+    
+    .image_reference{
+      width: 400px;
+      border-radius: 10px;
+    }
+  
+    .text{
+      margin-left: 300px;
+    }
+  
+    .titulo{
+      font-size: 40px;
+      position: relative;
+    }
+
+    .titulo::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 160px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+  
+    .money{
+      font-size: 30px;
+    }
+  
+    .informativo_sobre{
+      font-size:25px;
+    }
+  
+    .valory2{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .valory3{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .social-icons-finale{
+      display: flex; 
+      list-style: none; 
+      padding: 5px; 
+      cursor: pointer;
+      margin: 300px 50px 40px 600px;
+    }
+    
+    .social-icons-finale li {
+      margin: 0 20px; 
+    }
+    
+  }
+
+  @media screen and (min-width: 1440px) {
+    .header-container {
+      display: flex;
+      flex-direction: columnr; 
+      align-items: center; 
+      text-align: center; 
+    }
+    
+    .logo {
+      width: 250px;
+    }
+    
+    .social-icons {
+      display: flex; 
+      list-style: none; 
+      padding: 10px; 
+      cursor: pointer;
+  
+    }
+    
+    .social-icons li {
+      margin: 0 20px; 
+    }
+  
+    i{
+      transform: scale(1.9);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 500px;
+    }
+  
+    .titulo_sobre{
+      font-size: 43px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+
+    .segundario{
+        width: 500px;
+        bottom:300px;
+        position: relative;
+        left: 550px;
+      }
+  
+   
+  
+    .assunto{
+      text-align: center;
+      align-items: center;
+      display: flex;
+      color: #fad8d8;
+      font-size: 27px;
+     
+    }
+  
+  
+  
+    .informativo{
+      font-size: 27px;    
+      position: relative;
+      bottom: 200px;
+    }
+  
+    .image{
+      width: 350px;
+      margin-left: 75px;
+      bottom: 190px;
+      position: relative;
+    }
+  
+  
+  
+    .informativo_2{
+      font-size: 27px;    
+      position: relative;
+      bottom: 120px;
+    }
+  
+  
+    .valory1{
+      display: flex;
+      padding: 20px;
+    }
+    
+    .image_reference{
+      width: 400px;
+      border-radius: 10px;
+    }
+  
+    .text{
+      margin-left: 300px;
+    }
+  
+    .titulo{
+      font-size: 40px;
+      position: relative;
+    }
+
+    .titulo::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 160px;
+      height: 10px;
+      border-radius: 10px;
+      top: 45px;
+    }
+  
+    .money{
+      font-size: 30px;
+    }
+  
+    .informativo_sobre{
+      font-size:25px;
+    }
+  
+    .valory2{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .valory3{
+      display: flex;
+      padding: 20px;
+    }
+  
+    .social-icons-finale{
+      display: flex; 
+      list-style: none; 
+      padding: 5px; 
+      cursor: pointer;
+      margin: 300px 50px 40px 650px;
+    }
+    
+    .social-icons-finale li {
+      margin: 0 20px; 
+    }
+    
+  }

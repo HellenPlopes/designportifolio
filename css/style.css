@@ -256,43 +256,229 @@ body{
   }
   }
 
-  @media screen and (min-width: 780px){
+  @media screen and (min-width: 550px){
 
     i{
-      transform: scale(1.8);
+      transform: scale(1.7);
     }
   
   
     .container_primario{
-      margin-top: 40px;
-      columns: 1;
+      margin-top: 20px;
       display: flex;
     }
   
     .imagem_artista{
       width: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 170px;
+      position: relative;
+      right: 40px;
     }
   
     .titulo_sobre{
-      display: none;
+      font-size: 40px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 80px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 150px;
+      height: 8px;
+      border-radius: 10px;
+      top: 90px;
+      right: 3px;
     }
     
     .segundario{
-      width: 600px;
-      margin-left: 70px; 
+      width: 400px;
+      margin-left: 60px; 
     }
 
  
 
   .assunto{
-    font-size: 23px;
-    color: #d7655c;
+    font-size: 25px;
+   
   }
 
+
+
+  .informativo{
+    font-size: 25px;    
+  }
+
+  .image{
+    width: 400px;
+  }
+
+
+  .informativo_sobre{
+    font-size: 18px;
+  }
+
+  
+
+  .social-icons-finale{
+    margin: 100px 30px 40px 150px;
+  }
+  
+  }
+
+
+  @media screen and (min-width: 630px){
+
+    i{
+      transform: scale(1.7);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 400px;
+      position: relative;
+      right: 40px;
+    }
+  
+    .titulo_sobre{
+      font-size: 40px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 50px;
+      right: 80px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 8px;
+      border-radius: 10px;
+      top: 45px;
+    }
+    
+    .segundario{
+      width: 500px;
+      margin-left: 60px; 
+    }
+
+ 
+
+  .assunto{
+    font-size: 25px;
+   
+  }
+
+
+
+  .informativo{
+    font-size: 25px;    
+  }
+
+  .image{
+    width: 500px;
+  }
+
+
+  .terceiro_conteudo{
+    margin: 100px 50px 40px 45px;
+  }
+
+
+  .informativo_2{
+    font-size: 23px;    
+  }
+
+  
+  .image_reference{
+    width: 180px;
+  }
+
+  .text{
+    margin-left: 10px;
+  }
+
+  .titulo{
+    font-size: 20px;
+  }
+
+  .money{
+    font-size: 20px;
+  }
+
+  .informativo_sobre{
+    font-size: 18px;
+  }
+
+  
+
+  .social-icons-finale{
+    margin: 100px 30px 40px 200px;
+  }
+  
+  .social-icons-finale li {
+    margin: 0 20px; 
+  }
+  }
+
+  @media screen and (min-width: 780px){
+
+    i{
+      transform: scale(1.7);
+    }
+  
+  
+    .container_primario{
+      margin-top: 20px;
+      display: flex;
+    }
+  
+    .imagem_artista{
+      width: 500px;
+      position: relative;
+      right: 50px;
+    }
+  
+    .titulo_sobre{
+      font-size: 40px;    
+      width: 400px;
+      display: block;
+      position: relative;
+      top: 80px;
+      right: 80px;
+    }
+  
+    .titulo_sobre::before{
+      content: '';
+      position: absolute;
+      background: #d7655c;
+      width: 140px;
+      height: 8px;
+      border-radius: 10px;
+      top: 45px;
+    }
+    
+    .segundario{
+      width: 650px;
+      margin-left: 60px; 
+    }
+
+ 
+
+  .assunto{
+    font-size: 25px;
+   
+  }
 
 
   .informativo{
@@ -387,9 +573,10 @@ body{
     }
   
     .imagem_artista{
-      width: 500px;
+      width: 400px;
       position: relative;
-      right: 70px;
+       left: 100px;
+       top: 100px;
     }
   
     .titulo_sobre{
@@ -398,7 +585,7 @@ body{
       display: block;
       position: relative;
       top: 50px;
-      right: 60px;
+      left: 100px;
     }
   
     .titulo_sobre::before{
@@ -438,7 +625,7 @@ body{
     }
   
     .image{
-      width: 250px;
+      width: 350px;
       margin-left: 75px;
       bottom: 190px;
       position: relative;
